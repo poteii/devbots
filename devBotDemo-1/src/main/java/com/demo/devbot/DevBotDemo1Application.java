@@ -18,7 +18,6 @@ import com.linecorp.bot.spring.boot.annotation.LineMessageHandler;
 public class DevBotDemo1Application {
 	
 	@RequestMapping("/")
-    @ResponseBody
     String home() {
       return "Hello World!";
     }
