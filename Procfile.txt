@@ -1,0 +1,1 @@
+web: java $JAVA_OPTS -jar devBotDemo-1/build/libs/devBotDemo-1-*.jar --server.port=$PORT
